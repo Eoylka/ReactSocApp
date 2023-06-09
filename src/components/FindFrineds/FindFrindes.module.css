@@ -1,0 +1,159 @@
+.users {
+  position: relative;
+  margin-left: 43px;
+  margin-bottom: 46px;
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #00326d;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 1fr;
+  margin-bottom: 10px;
+  width: 900px;
+}
+
+.userImgFol {
+  display: block;
+  border-radius: 130px;
+  background-color: #888;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border: 3px solid #549b5d;
+}
+.userImgUnfol {
+  display: block;
+  border-radius: 130px;
+  background-color: #888;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border: 3px solid #eb6363;
+}
+
+.user_name {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #033772;
+  margin-left: 25px;
+}
+
+.user_post {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(3, 55, 114, 0.5);
+  margin-left: 45px;
+}
+.user_font3 {
+  display: block;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #033772;
+  margin-left: auto;
+  text-align: end;
+  margin-right: 25px;
+}
+
+.nameBlock {
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 90px;
+  border-top: solid 2px #033772;
+  border-bottom: solid 2px #033772;
+  border-left: solid 2px #033772;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.geoBlock {
+  margin-top: 20px;
+  height: 90px;
+  border-top: solid 2px #033772;
+  border-bottom: solid 2px #033772;
+  border-right: solid 2px #033772;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.pagination {
+  display: flex;
+}
+
+.selectedPage {
+  text-align: center;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  color: #033772;
+}
+.unselectdePage {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  color: rgba(3, 55, 114, 0.6);
+}
+
+.btnFollow {
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #549b5d;
+  background-color: transparent;
+  border: none;
+}
+
+.btnUnFollow {
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #eb6363;
+  background-color: transparent;
+  border: none;
+}
+button:disabled,
+button[disabled] {
+  font-weight: 700;
+  color: #666666;
+}
+
+.btnLeft {
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.btnRight {
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.ImgBtn {
+  display: flex;
+}

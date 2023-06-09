@@ -1,0 +1,75 @@
+.post_block {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.post_1 {
+  max-width: 1000px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.user_logo {
+  background-image: url("../../../../img/UserLogo.svg");
+  background-size: cover;
+  height: 95px;
+  width: 95px;
+}
+
+.user_post {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #033772;
+  width: 700px;
+  margin-left: 25px;
+}
+
+.post_time {
+  margin-left: auto;
+  font-size: 20px;
+  line-height: 24px;
+  color: #033772;
+}
+
+.like {
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  padding: 5px 12px;
+  background: #549b5d;
+  border-radius: 3px;
+  position: relative;
+  right: -845px;
+  bottom: 20px;
+  border: none;
+  color: white;
+  transition: 0.3s all;
+}
+.dislike {
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  padding: 5px 15px;
+  background: #b52d2d;
+  border-radius: 3px;
+  position: relative;
+  right: -860px;
+  bottom: 20px;
+  border: none;
+  color: white;
+  transition: 0.3s all;
+}
+.like:hover {
+  background: #93da9c;
+}
+.dislike:hover {
+  background: #eb6363;
+}

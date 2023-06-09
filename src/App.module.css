@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app_wraper {
+  margin: 0 auto;
+  width: 1440px;
+  gap: 24px;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "h h"
+    "n c";
+}
+
+.app_wraper_content {
+  grid-area: c;
+}

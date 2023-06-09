@@ -1,0 +1,73 @@
+.signUp {
+  margin-left: 43px;
+  margin-bottom: 46px;
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #00326d;
+}
+.loginUp {
+  margin-left: 43px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #00326d;
+}
+.loginUp1 {
+  margin-left: 86px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #00326d;
+}
+.block {
+  display: block;
+  width: 10px;
+  height: 10px;
+}
+.textField {
+  width: 400px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #033772;
+  text-decoration: none;
+}
+.textField:focus {
+  outline: none;
+}
+
+.remember {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(0, 50, 109, 0.7);
+  text-decoration: none;
+  margin-left: 10px;
+}
+.rememberContainer {
+  display: flex;
+}
+.tick {
+  width: 20px;
+}
+.btn {
+  cursor: pointer;
+  display: flex;
+  margin-top: 15px;
+  margin-left: auto;
+  align-items: center;
+  justify-content: space-around;
+  width: 182px;
+  height: 51px;
+  background: #ffb2b2;
+  border-radius: 7px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  border: none;
+}

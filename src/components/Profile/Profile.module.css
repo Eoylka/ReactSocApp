@@ -1,0 +1,89 @@
+.content {
+  grid-area: c;
+}
+
+
+.userProfPhoto {
+  width: 100%;
+  height: 215px;
+}
+.contentnInfo {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 175px 1fr;
+  gap: 30px;
+  grid-template-areas: "i ii";
+}
+
+.userImg {
+  grid-area: i;
+}
+.userImgLogo {
+  height: 170px;
+  width: 170px;
+  border-radius: 100px;
+  background-image: url("../../img/UserLogo.svg");
+  background-size: cover;
+}
+
+.userInfo {
+  grid-area: ii;
+}
+
+.userInfo h1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #033772;
+  margin-bottom: 20px;
+}
+
+.userInfo h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #033772;
+}
+.myPosts {
+  margin-top: 90px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: rgba(0, 50, 109, 0.7);
+}
+
+.inputePost {
+  box-sizing: border-box;
+  padding-left: 20px;
+  font-size: 16px;
+  display: flex;
+  margin-top: 15px;
+  width: 100%;
+  height: 83px;
+  background: rgba(36, 105, 120, 0.3);
+  box-shadow: 0px 4px 4px rgba(178, 226, 255, 0.3);
+  border-radius: 13px;
+  border: none;
+}
+
+.inputePost:focus {
+  outline: none;
+}
+
+.btnInp {
+  cursor: pointer;
+  display: flex;
+  margin-top: 15px;
+  margin-left: auto;
+  align-items: center;
+  justify-content: space-around;
+  width: 182px;
+  height: 51px;
+  background: #ffb2b2;
+  border-radius: 7px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  border: none;
+}

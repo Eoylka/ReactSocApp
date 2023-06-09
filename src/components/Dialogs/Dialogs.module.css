@@ -1,0 +1,15 @@
+.content {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+}
+.mesages {
+  position: relative;
+  margin-left: 43px;
+  margin-bottom: 46px;
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #00326d;
+}
+

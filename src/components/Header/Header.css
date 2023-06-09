@@ -1,0 +1,133 @@
+  .headerImg {
+    background-image: url("../../img/Header2.svg");
+    background-color: #246978;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    display: flex;
+  }
+
+  .header {
+    grid-area: h;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .loginBlock {
+    width: 220px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: auto;
+    transition: all 0.3s;
+    transform: translateY(60%);
+  }
+
+  .userImgLogo {
+    width: 50px;
+    transform: translate(-5px, 0px);
+  }
+
+  .userName {
+    color: #fff;
+    padding: 10px;
+    align-self: center;
+    text-decoration: none;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .userName:hover {
+    cursor: pointer;
+    background-color: transparent;
+  }
+
+  .flex:hover p {
+    text-decoration: underline;
+  }
+
+  .imgInside {
+    display: block;
+    width: 120px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+  }
+  .nameInside {
+    display: block;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #00326d;
+    padding-bottom: 60px;
+  }
+  .setInside {
+    display: flex;
+  }
+  .settings {
+    text-decoration: none;
+    cursor: pointer;
+    align-self: center;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #00326d;
+  }
+
+  .setLogo {
+    padding-left: 37px;
+  }
+  .goOutLogo {
+    padding-left: 30px;
+  }
+
+  .setInside:last-child {
+    padding-top: 20px;
+  }
+  .btnOut {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #00326d;
+  }
+
+  .userWindow {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 291px;
+    height: 391px;
+
+    right: 155px;
+    top: 15px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .userWindow::before {
+    position: absolute;
+    content: "";
+    left: 200px;
+    top: -60px;
+
+    border: 35px solid transparent;
+    border-bottom: 31px solid #fff;
+  }
+
+  .active {
+    transform: scale(1);
+    transition: 0.3s all;
+  }
+  .none {
+    transform: scale(0);
+    transition: 0.3s all;
+  }

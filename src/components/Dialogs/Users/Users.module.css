@@ -1,0 +1,60 @@
+.mesages {
+  position: relative;
+  margin-left: 43px;
+  margin-bottom: 46px;
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #00326d;
+}
+.mesages svg {
+  position: absolute;
+  left: -30px;
+  top: 7px;
+}
+
+.user_field {
+  width: 462px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user_name {
+  width: 170px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(3, 55, 114, 0.5);
+  margin-left: 15px;
+  text-decoration: none;
+}
+.user_name1 {
+  width: 170px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #033772;
+  margin-left: 15px;
+  text-decoration: none;
+}
+.user_mesage {
+  width: 150px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(3, 55, 114, 0.5);
+  width: 150px;
+  text-decoration: none;
+}
+.user_block {
+  display: flex;
+  padding: 33px 0px;
+  border-bottom: 1px solid rgba(3, 55, 114, 0.2);
+}
+
+.block {
+  width: 5px;
+  height: 5px;
+}

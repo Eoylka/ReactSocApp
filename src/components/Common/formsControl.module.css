@@ -1,0 +1,63 @@
+.error input,
+.error textarea {
+  border: 2px solid red;
+}
+.errorText {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: red;
+}
+
+.errorMsgCont {
+  position: relative;
+}
+
+.errorMsg {
+  position: absolute;
+  width: 350px;
+  color: red;
+  top: -40px;
+  right: 315px;
+}
+.errorLogin {
+  position: absolute;
+  width: 350px;
+  color: red;
+  top: -39px;
+  right: 390px;
+}
+
+.loginMsg {
+  margin-left: 20px;
+  transform: translatey(170%);
+  position: absolute;
+  color: red;
+}
+
+.textField {
+  width: 400px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(3, 55, 114, 0.5);
+  text-decoration: none;
+}
+.checkBox {
+  display: flex;
+
+  align-items: center;
+}
+.rememberMe {
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #033772;
+}
+.cheboxStyle {
+  width: 20px;
+  height: 20px;
+}
